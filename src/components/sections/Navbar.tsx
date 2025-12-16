@@ -52,13 +52,19 @@ export const Navbar = () => {
 
             {/* CTA */}
             <div className="hidden md:block">
-              <MovingBorder
-                borderRadius="1rem"
-                duration={3000}
-                className="px-6 py-2.5 text-sm font-semibold text-foreground"
+              <a
+                href="https://pay.kirvano.com/e1c565c8-43bd-4a17-8da8-44cf3571bcde"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Começar Agora
-              </MovingBorder>
+                <MovingBorder
+                  borderRadius="1rem"
+                  duration={3000}
+                  className="px-6 py-2.5 text-sm font-semibold text-foreground"
+                >
+                  Começar Agora
+                </MovingBorder>
+              </a>
             </div>
 
             {/* Mobile menu button */}
@@ -90,13 +96,19 @@ export const Navbar = () => {
                       {link.label}
                     </a>
                   ))}
-                  <MovingBorder
-                    borderRadius="1rem"
-                    duration={3000}
-                    className="px-6 py-2.5 text-sm font-semibold text-foreground text-center"
+                  <a
+                    href="https://pay.kirvano.com/e1c565c8-43bd-4a17-8da8-44cf3571bcde"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Começar Agora
-                  </MovingBorder>
+                    <MovingBorder
+                      borderRadius="1rem"
+                      duration={3000}
+                      className="px-6 py-2.5 text-sm font-semibold text-foreground text-center"
+                    >
+                      Começar Agora
+                    </MovingBorder>
+                  </a>
                 </div>
               </motion.div>
             )}

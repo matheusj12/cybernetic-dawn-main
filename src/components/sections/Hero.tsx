@@ -87,16 +87,22 @@ export const Hero = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            <MovingBorder
-              borderRadius="1.75rem"
-              duration={3000}
-              className="px-8 py-4 font-semibold text-foreground hover:text-primary-foreground hover:bg-primary/10 transition-colors"
+            <a
+              href="https://pay.kirvano.com/e1c565c8-43bd-4a17-8da8-44cf3571bcde"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <span className="flex items-center gap-2">
-                👉 Começar agora no WhatsApp
-                <ArrowRight className="w-5 h-5" />
-              </span>
-            </MovingBorder>
+              <MovingBorder
+                borderRadius="1.75rem"
+                duration={3000}
+                className="px-8 py-4 font-semibold text-foreground hover:text-primary-foreground hover:bg-primary/10 transition-colors"
+              >
+                <span className="flex items-center gap-2">
+                  👉 Começar agora no WhatsApp
+                  <ArrowRight className="w-5 h-5" />
+                </span>
+              </MovingBorder>
+            </a>
 
             <motion.button
               whileHover={{ scale: 1.02 }}

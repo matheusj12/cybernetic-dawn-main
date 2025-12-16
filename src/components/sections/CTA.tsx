@@ -61,16 +61,22 @@ export const CTA = () => {
 
               {/* CTA Button */}
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <MovingBorder
-                  borderRadius="1.75rem"
-                  duration={2500}
-                  className="px-10 py-5 font-bold text-lg text-foreground hover:text-primary-foreground hover:bg-primary/10 transition-colors"
+                <a
+                  href="https://pay.kirvano.com/e1c565c8-43bd-4a17-8da8-44cf3571bcde"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <span className="flex items-center gap-2">
-                    🚀 Quero controlar meu dinheiro no WhatsApp
-                    <ArrowRight className="w-5 h-5" />
-                  </span>
-                </MovingBorder>
+                  <MovingBorder
+                    borderRadius="1.75rem"
+                    duration={2500}
+                    className="px-10 py-5 font-bold text-lg text-foreground hover:text-primary-foreground hover:bg-primary/10 transition-colors"
+                  >
+                    <span className="flex items-center gap-2">
+                      🚀 Quero controlar meu dinheiro no WhatsApp
+                      <ArrowRight className="w-5 h-5" />
+                    </span>
+                  </MovingBorder>
+                </a>
               </div>
 
               <p className="text-xs text-muted-foreground">
