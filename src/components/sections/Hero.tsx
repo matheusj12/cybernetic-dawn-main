@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Zap, MessageSquare, Bot } from "lucide-react";
+import { ArrowRight, Sparkles, MessageSquare, Bot } from "lucide-react";
 import { MovingBorder } from "@/components/ui/moving-border";
 
 export const Hero = () => {
@@ -48,8 +48,8 @@ export const Hero = () => {
             className="inline-flex"
           >
             <div className="glass rounded-full px-4 py-2 flex items-center gap-2 text-sm">
-              <Zap className="w-4 h-4 text-primary" />
-              <span className="text-muted-foreground">✨ +10.000 pessoas já usam o ZapGest</span>
+              <Sparkles className="w-4 h-4 text-primary" />
+              <span className="text-muted-foreground">✨ +10.000 pessoas já usam o Pixou</span>
             </div>
           </motion.div>
 

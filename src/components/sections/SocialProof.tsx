@@ -49,7 +49,7 @@ export const SocialProof = () => {
                         +10.000 pessoas já <span className="gradient-text">no controle</span>
                     </h2>
                     <p className="mt-4 text-muted-foreground text-lg">
-                        Veja o que nossos usuários estão falando sobre o ZapGest
+                        Veja o que nossos usuários estão falando sobre o Pixou
                     </p>
                 </motion.div>
 

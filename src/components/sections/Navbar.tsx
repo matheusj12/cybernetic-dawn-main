@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Zap } from "lucide-react";
+import { Menu, X, Sparkles } from "lucide-react";
 import { MovingBorder } from "@/components/ui/moving-border";
 
 const navLinks = [
@@ -28,10 +28,10 @@ export const Navbar = () => {
               className="flex items-center gap-2"
             >
               <div className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center">
-                <Zap className="w-6 h-6 text-primary" />
+                <Sparkles className="w-6 h-6 text-primary" />
               </div>
               <span className="text-xl font-bold text-foreground">
-                Zap<span className="text-primary">Gest</span>
+                Pi<span className="text-primary">xou</span>
               </span>
             </motion.a>
 

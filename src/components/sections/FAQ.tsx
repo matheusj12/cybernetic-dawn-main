@@ -52,7 +52,7 @@ export const FAQ = () => {
                         Ainda tem <span className="gradient-text">perguntas?</span>
                     </h2>
                     <p className="mt-4 text-muted-foreground text-lg">
-                        Respondemos as dúvidas mais comuns sobre o ZapGest
+                        Respondemos as dúvidas mais comuns sobre o Pixou
                     </p>
                 </motion.div>
 

@@ -32,7 +32,7 @@ const features = [
   {
     icon: Zap,
     title: "⚡ Disponível 24h",
-    description: "Registre gastos a qualquer hora do dia ou da noite. O ZapGest nunca dorme.",
+    description: "Registre gastos a qualquer hora do dia ou da noite. O Pixou nunca dorme.",
     color: "primary" as const,
   },
   {

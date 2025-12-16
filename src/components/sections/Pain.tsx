@@ -65,7 +65,7 @@ export const Pain = () => {
                     className="text-center text-muted-foreground mt-12 text-lg"
                 >
                     Se você se identificou com pelo menos uma dessas situações, <br />
-                    <span className="text-primary font-semibold">o ZapGest foi feito pra você.</span>
+                    <span className="text-primary font-semibold">o Pixou foi feito pra você.</span>
                 </motion.p>
             </div>
         </section>

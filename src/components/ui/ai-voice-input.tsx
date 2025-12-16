@@ -33,7 +33,7 @@ export const AIVoiceInput = ({ className }: AIVoiceInputProps) => {
             <span className="text-primary text-lg">🤖</span>
           </div>
           <div>
-            <h4 className="font-semibold text-foreground">ZapGest AI</h4>
+            <h4 className="font-semibold text-foreground">Pixou AI</h4>
             <p className="text-xs text-muted-foreground">Assistente Virtual</p>
           </div>
         </div>

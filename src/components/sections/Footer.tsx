@@ -1,6 +1,6 @@
 
 
-import { Zap, Github, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Sparkles, Github, Twitter, Linkedin, Instagram } from "lucide-react";
 
 const footerLinks = {
   Produto: ["Recursos", "Preços", "Integrações", "API"],
@@ -25,10 +25,10 @@ export const Footer = () => {
           <div className="col-span-2">
             <a href="/" className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center">
-                <Zap className="w-6 h-6 text-primary" />
+                <Sparkles className="w-6 h-6 text-primary" />
               </div>
               <span className="text-xl font-bold text-foreground">
-                Zap<span className="text-primary">Gest</span>
+                Pi<span className="text-primary">xou</span>
               </span>
             </a>
             <p className="text-muted-foreground text-sm mb-4">
@@ -70,7 +70,7 @@ export const Footer = () => {
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            ZapGest © 2025 — Controle financeiro simples e inteligente
+            Pixou © 2025 — Controle financeiro simples e inteligente
           </p>
           <p className="text-sm text-muted-foreground">
             Feito com 💚 no Brasil
