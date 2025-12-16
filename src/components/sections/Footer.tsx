@@ -25,9 +25,9 @@ export const Footer = () => {
           <div className="col-span-2">
             <a href="/" className="inline-block mb-4">
               <img
-                src="/logo-pixou.png"
+                src="/logo-pixou-full.png"
                 alt="Pixou - Finanças por Mensagem"
-                className="h-12 w-auto"
+                className="h-16 w-auto"
               />
             </a>
             <p className="text-muted-foreground text-sm mb-4">

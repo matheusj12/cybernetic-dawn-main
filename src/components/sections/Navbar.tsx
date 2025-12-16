@@ -28,9 +28,9 @@ export const Navbar = () => {
               className="flex items-center"
             >
               <img
-                src="/logo-pixou.png"
+                src="/logo-pixou-full.png"
                 alt="Pixou - Finanças por Mensagem"
-                className="h-10 w-auto"
+                className="h-12 md:h-14 w-auto"
               />
             </motion.a>
 
