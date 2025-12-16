@@ -64,7 +64,7 @@ const itemVariants = {
 
 export const Features = () => {
   return (
-    <section className="relative py-24 overflow-hidden">
+    <section id="recursos" className="relative py-24 overflow-hidden scroll-mt-24">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-muted/20 to-background" />
 

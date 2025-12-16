@@ -6,10 +6,10 @@ import { Menu, X } from "lucide-react";
 import { MovingBorder } from "@/components/ui/moving-border";
 
 const navLinks = [
+  { label: "Como Funciona", href: "#como-funciona" },
   { label: "Recursos", href: "#recursos" },
-  { label: "Preços", href: "#precos" },
-  { label: "Sobre", href: "#sobre" },
-  { label: "Contato", href: "#contato" },
+  { label: "Depoimentos", href: "#depoimentos" },
+  { label: "FAQ", href: "#faq" },
 ];
 
 export const Navbar = () => {

@@ -33,7 +33,7 @@ export const FAQ = () => {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
 
     return (
-        <section className="relative py-24 overflow-hidden">
+        <section id="faq" className="relative py-24 overflow-hidden scroll-mt-24">
             {/* Background */}
             <div className="absolute inset-0 bg-gradient-to-b from-background via-muted/10 to-background" />
 

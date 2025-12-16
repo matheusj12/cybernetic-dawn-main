@@ -30,7 +30,7 @@ const steps = [
 
 export const HowItWorks = () => {
     return (
-        <section className="relative py-24 overflow-hidden">
+        <section id="como-funciona" className="relative py-24 overflow-hidden scroll-mt-24">
             {/* Background */}
             <div className="absolute inset-0 bg-gradient-to-b from-background via-muted/10 to-background" />
 

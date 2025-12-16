@@ -4,6 +4,11 @@
 
 /* Pixou - Ultra Dark Futuristic Design System */
 
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   :root {
     /* Core palette - Cyberpunk Dark - Default to dark theme */
@@ -68,6 +73,7 @@
 }
 
 @layer utilities {
+
   /* Glassmorphism */
   .glass {
     background: hsl(var(--surface-glass) / 0.4);
@@ -84,19 +90,19 @@
   /* Glow effects */
   .glow-primary {
     box-shadow: 0 0 20px hsl(var(--glow-primary) / 0.3),
-                0 0 40px hsl(var(--glow-primary) / 0.2),
-                0 0 60px hsl(var(--glow-primary) / 0.1);
+      0 0 40px hsl(var(--glow-primary) / 0.2),
+      0 0 60px hsl(var(--glow-primary) / 0.1);
   }
 
   .glow-secondary {
     box-shadow: 0 0 20px hsl(var(--glow-secondary) / 0.3),
-                0 0 40px hsl(var(--glow-secondary) / 0.2);
+      0 0 40px hsl(var(--glow-secondary) / 0.2);
   }
 
   .glow-text {
     text-shadow: 0 0 10px hsl(var(--glow-primary) / 0.5),
-                 0 0 20px hsl(var(--glow-primary) / 0.3),
-                 0 0 30px hsl(var(--glow-primary) / 0.2);
+      0 0 20px hsl(var(--glow-primary) / 0.3),
+      0 0 30px hsl(var(--glow-primary) / 0.2);
   }
 
   /* Gradient text */
@@ -124,36 +130,73 @@
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 @keyframes pulse-glow {
-  0%, 100% { 
+
+  0%,
+  100% {
     box-shadow: 0 0 20px hsl(var(--glow-primary) / 0.3),
-                0 0 40px hsl(var(--glow-primary) / 0.2);
+      0 0 40px hsl(var(--glow-primary) / 0.2);
   }
-  50% { 
+
+  50% {
     box-shadow: 0 0 30px hsl(var(--glow-primary) / 0.5),
-                0 0 60px hsl(var(--glow-primary) / 0.3),
-                0 0 80px hsl(var(--glow-primary) / 0.2);
+      0 0 60px hsl(var(--glow-primary) / 0.3),
+      0 0 80px hsl(var(--glow-primary) / 0.2);
   }
 }
 
 /* Audio bar animation for AI voice */
 @keyframes audio-bar {
-  0%, 100% { transform: scaleY(0.3); }
-  50% { transform: scaleY(1); }
+
+  0%,
+  100% {
+    transform: scaleY(0.3);
+  }
+
+  50% {
+    transform: scaleY(1);
+  }
 }
 
 .audio-bar {
   animation: audio-bar 0.5s ease-in-out infinite;
 }
 
-.audio-bar:nth-child(1) { animation-delay: 0s; }
-.audio-bar:nth-child(2) { animation-delay: 0.1s; }
-.audio-bar:nth-child(3) { animation-delay: 0.2s; }
-.audio-bar:nth-child(4) { animation-delay: 0.3s; }
-.audio-bar:nth-child(5) { animation-delay: 0.15s; }
-.audio-bar:nth-child(6) { animation-delay: 0.25s; }
-.audio-bar:nth-child(7) { animation-delay: 0.05s; }
+.audio-bar:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.audio-bar:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.audio-bar:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.audio-bar:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.audio-bar:nth-child(5) {
+  animation-delay: 0.15s;
+}
+
+.audio-bar:nth-child(6) {
+  animation-delay: 0.25s;
+}
+
+.audio-bar:nth-child(7) {
+  animation-delay: 0.05s;
+}
