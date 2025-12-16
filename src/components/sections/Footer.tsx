@@ -1,6 +1,6 @@
 
 
-import { Sparkles, Github, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Github, Twitter, Linkedin, Instagram } from "lucide-react";
 
 const footerLinks = {
   Produto: ["Recursos", "Preços", "Integrações", "API"],
@@ -23,16 +23,15 @@ export const Footer = () => {
         <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
           {/* Brand */}
           <div className="col-span-2">
-            <a href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center">
-                <Sparkles className="w-6 h-6 text-primary" />
-              </div>
-              <span className="text-xl font-bold text-foreground">
-                Pi<span className="text-primary">xou</span>
-              </span>
+            <a href="/" className="inline-block mb-4">
+              <img
+                src="/logo-pixou.png"
+                alt="Pixou - Finanças por Mensagem"
+                className="h-12 w-auto"
+              />
             </a>
             <p className="text-muted-foreground text-sm mb-4">
-              Controle financeiro simples e inteligente direto no WhatsApp.
+              Finanças por Mensagem. Controle financeiro simples e inteligente direto no WhatsApp.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social, i) => (
@@ -70,7 +69,7 @@ export const Footer = () => {
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            Pixou © 2025 — Controle financeiro simples e inteligente
+            Pixou © 2025 — Finanças por Mensagem
           </p>
           <p className="text-sm text-muted-foreground">
             Feito com 💚 no Brasil
