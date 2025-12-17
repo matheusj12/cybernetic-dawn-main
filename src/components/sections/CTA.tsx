@@ -1,11 +1,11 @@
 
 import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle } from "lucide-react";
+import { ArrowRight, CheckCircle, Gift } from "lucide-react";
 import { MovingBorder } from "@/components/ui/moving-border";
 
 const benefits = [
-  "🔒 Seus dados são criptografados",
-  "💳 Sem precisar de cartão",
+  "🎁 50 mensagens grátis",
+  "💰 Apenas R$9/mês depois",
   "⚡ Setup em 10 segundos",
   "✅ Cancele quando quiser",
 ];

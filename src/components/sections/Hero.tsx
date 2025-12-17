@@ -85,33 +85,56 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4"
+            className="flex flex-col items-center justify-center gap-4"
           >
-            <a
-              href="https://pay.kirvano.com/e1c565c8-43bd-4a17-8da8-44cf3571bcde"
-              target="_blank"
-              rel="noopener noreferrer"
+            {/* Free trial badge */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.35 }}
+              className="bg-green-500/20 border border-green-500/50 px-5 py-2 rounded-full text-green-400 font-semibold text-sm flex items-center gap-2"
             >
-              <MovingBorder
-                borderRadius="1.75rem"
-                duration={3000}
-                className="px-8 py-4 font-semibold text-foreground hover:text-primary-foreground hover:bg-primary/10 transition-colors"
-              >
-                <span className="flex items-center gap-2">
-                  👉 Começar agora no WhatsApp
-                  <ArrowRight className="w-5 h-5" />
-                </span>
-              </MovingBorder>
-            </a>
+              🎁 50 mensagens GRÁTIS para novos usuários!
+            </motion.div>
 
-            <motion.button
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              className="glass px-8 py-4 rounded-full font-semibold text-foreground hover:bg-muted/50 transition-colors flex items-center gap-2"
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                href="https://pay.kirvano.com/e1c565c8-43bd-4a17-8da8-44cf3571bcde"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MovingBorder
+                  borderRadius="1.75rem"
+                  duration={3000}
+                  className="px-8 py-4 font-semibold text-foreground hover:text-primary-foreground hover:bg-primary/10 transition-colors"
+                >
+                  <span className="flex items-center gap-2">
+                    👉 Começar grátis agora
+                    <ArrowRight className="w-5 h-5" />
+                  </span>
+                </MovingBorder>
+              </a>
+
+              <motion.a
+                href="#veja-funcionando"
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                className="glass px-8 py-4 rounded-full font-semibold text-foreground hover:bg-muted/50 transition-colors flex items-center gap-2"
+              >
+                <MessageSquare className="w-5 h-5 text-primary" />
+                Ver funcionando
+              </motion.a>
+            </div>
+
+            {/* Price tag */}
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5 }}
+              className="text-muted-foreground text-sm"
             >
-              <MessageSquare className="w-5 h-5 text-primary" />
-              Ver como funciona
-            </motion.button>
+              Depois do teste gratuito: apenas <span className="text-primary font-bold">R$9/mês</span> 💚
+            </motion.p>
           </motion.div>
 
           {/* Stats */}
