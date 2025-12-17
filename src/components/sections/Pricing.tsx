@@ -45,30 +45,20 @@ export const Pricing = () => {
                         <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-secondary/30 rounded-3xl blur-2xl" />
 
                         {/* Card */}
-                        <div className="relative glass-strong rounded-3xl overflow-hidden">
-                            {/* Popular badge */}
-                            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                <div className="bg-gradient-to-r from-primary to-secondary px-6 py-2 rounded-full text-white font-semibold text-sm flex items-center gap-2 shadow-lg">
-                                    <Crown className="w-4 h-4" />
-                                    Mais popular
+                        <div className="relative glass-strong rounded-3xl">
+                            <div className="p-8 text-center space-y-6">
+                                {/* Badges row */}
+                                <div className="flex flex-wrap items-center justify-center gap-3">
+                                    <div className="bg-gradient-to-r from-primary to-secondary px-4 py-2 rounded-full text-white font-semibold text-sm flex items-center gap-2 shadow-lg">
+                                        <Crown className="w-4 h-4" />
+                                        Mais popular
+                                    </div>
+                                    <div className="bg-green-500/20 border border-green-500/50 px-4 py-2 rounded-full text-green-400 font-semibold text-sm flex items-center gap-2">
+                                        <Gift className="w-4 h-4" />
+                                        50 mensagens GRÁTIS
+                                    </div>
                                 </div>
-                            </div>
 
-                            {/* Free trial badge */}
-                            <motion.div
-                                initial={{ opacity: 0, x: 20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: 0.3 }}
-                                className="absolute top-4 right-4"
-                            >
-                                <div className="bg-green-500/20 border border-green-500/50 px-4 py-2 rounded-full text-green-400 font-semibold text-sm flex items-center gap-2">
-                                    <Gift className="w-4 h-4" />
-                                    50 mensagens GRÁTIS
-                                </div>
-                            </motion.div>
-
-                            <div className="p-8 pt-12 text-center space-y-6">
                                 {/* Plan name */}
                                 <div>
                                     <h3 className="text-2xl font-bold text-foreground flex items-center justify-center gap-2">
@@ -81,7 +71,7 @@ export const Pricing = () => {
                                 </div>
 
                                 {/* Price */}
-                                <div className="py-6">
+                                <div className="py-4">
                                     <div className="flex items-baseline justify-center gap-1">
                                         <span className="text-2xl font-semibold text-muted-foreground">R$</span>
                                         <span className="text-7xl font-bold gradient-text glow-text">9</span>
