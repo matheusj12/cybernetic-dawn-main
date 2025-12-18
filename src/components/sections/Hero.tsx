@@ -99,7 +99,7 @@ export const Hero = () => {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://pay.kirvano.com/e1c565c8-43bd-4a17-8da8-44cf3571bcde"
+                href="https://wa.me/5562920012628"
                 target="_blank"
                 rel="noopener noreferrer"
               >
